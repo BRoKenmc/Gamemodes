@@ -1,0 +1,16 @@
+package me.BRoKenmc.Gamemodes;
+
+
+import org.bukkit.plugin.java.JavaPlugin;
+
+public class Gamemodes extends JavaPlugin {
+
+    @Override
+    public void onEnable() {
+        getCommand("g1").setExecutor(new Gamemode1());
+        getCommand("g2").setExecutor(new Gamemode2());
+        getCommand("g3").setExecutor(new Gamemode3());
+        getCommand("g0").setExecutor(new Gamemode0());
+    }
+
+}
