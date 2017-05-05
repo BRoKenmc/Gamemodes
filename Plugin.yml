@@ -1,0 +1,16 @@
+name: Gamemodes
+main: me.BRoKenmc.Gamemodes.Gamemodes
+version: 1.0
+commands:
+    g1:
+      description: Change your gamemode in creative mode or another player.
+      usage: /<command>
+    g2:
+        description: Change your gamemode in adventure mode or another player.
+        usage: /<command>
+    g3:
+        description: Change your gamemode in spectator mode or another player.
+        usage: /<command>
+    g0:
+        description: Change your gamemode in survival mode or another player.
+        usage: /<command>
